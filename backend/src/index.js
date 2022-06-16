@@ -1,6 +1,6 @@
 const express = require("express");
 //methods and functions to create mongodb models
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 const dotenev = require("dotenv");
 
 //load functions from dotenv to main file
@@ -18,10 +18,10 @@ mongoose
 
 //get route take 2 params -> routename, function
 //get, post, put, delete, patch (week2-> route creation)
-app.get("/hello-world", (req,res) => {
-    res.send("HELLO WORLD");
+app.get("/hello-world", (req, res) => {
+  res.send("HELLO WORLD");
 });
 
 app.listen(process.env.PORT, () => {
-    console.log("Backend sever has started: " + process.env.PORT);
+  console.log("Backend sever has started: " + process.env.PORT);
 });
