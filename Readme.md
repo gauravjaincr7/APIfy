@@ -1,5 +1,3 @@
-# Cuvette Hand On Project Starter
-
 ## Getting Started
 
 This project requires the following software to be intstalled on your system
